@@ -1,5 +1,5 @@
 
-
+public class DogOwnerMain {
 /*
 Opdracht
 Geef de klasse Dog de volgende instance variables: name, species, age, sex. Datatypes mag je zelf verzinnen.
@@ -20,15 +20,15 @@ De hond heet: [NAAM-Dog]
 
 Instantieer hieronder de objecten en laat zien dat je code werkt.
  */
-void main() {
+    void main (String[] args) {
 
-    Dog dog = new Dog("Barra", "vuilnisbak", 12, "teef");
+        Dog dog = new Dog("Barra", "vuilnisbak", 12, "teef");
 
-    DogOwner nick = new DogOwner("Nick", "male");
-    nick.setDog(dog);
+        DogOwner nick = new DogOwner("Nick", "male");
+        nick.setDog(dog);
 
-    IO.println(nick.toString());
+        IO.println(nick.toString());
+
+    }
 
 }
-
-
